@@ -1,0 +1,22 @@
+Untesu Albert Cristian 334CB
+
+	Pentru implementarea temei am folosit scheletul de laborator nr 5. 
+Per total am incercat sa folosesc nume de variabile cat mai sugestive
+pentru a fi cat mai usor de inteles codul.
+	Ideea principala a implementarii mele este: citesc ce trebuie din 
+fisier. Creez WorkPool-ul, iar dupa aceea pentru fiecare fisier, citesc
+si verifica daca e mijloc de cuvant sau nu si creez taskuri de tip map
+cu offset si chunk cat trebuie (chunk este = cu cat trebuie + cate caractere
+este nevoie ca sa fie un cuvant intreg la sfarsit). Dupa ce toate taskurile
+sunt create se initializeaza niste variabile pentru fiecare fisier. Variabilele
+memoreaza nr de apariti, cuvintele maxime fara duplicate pentru fiecare 
+fisier si sunt updatate de fiecare worker la fiecare procesare. Variabilele
+sunt trimise prin referinta fiecarui worker. Dupa ce toate taskurile au fost
+terminate am urmatoarele date: nr de paritii pt fiecare fisier si cuvintele
+maxime pentru fiecare fisier. Dupa asta calculez rankul fiecarui fisier
+dupa formula si le salvez intr-o lista ce clasa Rank pentru a putea sa 
+le sortez usor. Dupa ce le sortez le scriu in fisier in ordinea si
+formatarea dorita in enunt. Si cam asta e tot :)
+
+	Pentru aceleasi date de intrare, programul se comporta normal si are
+timpi aproape la fel la fiecare rulare.
