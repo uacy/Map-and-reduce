@@ -1,8 +1,5 @@
-Untesu Albert Cristian 334CB
+Untesu Albert Cristian
 
-	Pentru implementarea temei am folosit scheletul de laborator nr 5. 
-Per total am incercat sa folosesc nume de variabile cat mai sugestive
-pentru a fi cat mai usor de inteles codul.
 	Ideea principala a implementarii mele este: citesc ce trebuie din 
 fisier. Creez WorkPool-ul, iar dupa aceea pentru fiecare fisier, citesc
 si verifica daca e mijloc de cuvant sau nu si creez taskuri de tip map
